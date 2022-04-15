@@ -1,8 +1,8 @@
 body {
-   font-family: "Merriweather", Garamond, Georgia, serif;
+   font-family: Georgia, Garamond, "Times New Roman", serif;
    font-size: 1.2em;
    line-height: 1.5;
-   text-align: center;
+   text-align: left;
 
    display: grid;
    grid-template-columns: 1fr;
@@ -17,6 +17,9 @@ body {
 
    background-color: rgba(255, 255, 255, 1);
 }
+
+header, footer {background-color: rgba(245, 245, 245, 1);}
+section {background-color: rgba(211, 213, 219, 0.1)}
 
 h1, h2, h3 {font-family: "Trebuchet MS", Verdana, Arial, sans-serif;}
 
@@ -37,13 +40,13 @@ h2{
   text-transform: uppercase;
   font-size: 1.6em;
   color: rgba(62, 69, 105, 1);
-  border-bottom: 1px solid
+  border-bottom: 2px solid
 }
 h3{
   margin: 0;
   text-transform: lowercase;
   font-size: 1.6em;
-  color: rgba(108,137,112,1); }
+  color: rgba(45, 56, 46, 0.7); }
 }
 
 header {
@@ -61,7 +64,7 @@ main {
    "geography people-and-society military";
   grid-gap: 16px;
 
-  background-color: white;
+  background-color: rgba(176, 191, 180,0.15);
 }
 
 footer {
@@ -85,29 +88,26 @@ section p{
   font-size: 1em;
 }
 section table{
-  font-size: 0.7em;
+  font-size: 0.9em;
   padding: 1em 1em 1em 1em;
 
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-
-  border: 1px solid rgba(108,137,112,0.3);
   box-sizing: border-box;
-  width: 300px;
-  height: 100px;
-  background-color: white;
+  width: 500px;
+  height: 200px;
+  background-color: rgba(255, 255, 255,0.3);
  }
 section figure{
   text-align:center;
   font-weight: bold;
 }
 section img{
-  border: 0.5px solid rgba(108,137,112,0.3);
+  border: 3px solid rgba(108,137,112,0.3);
 }
 section caption{
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
+  text-align: left;
+
   margin-bottom: 12px;
 }
 section figcaption{
@@ -116,16 +116,19 @@ section figcaption{
   margin-bottom: 12px;
 }
 section li{
-  background-color: rgba(255,255,255,1);
-  padding: 0.7em 0.5em 0.7em 0.5em;
-  list-style-type: circle;
-  text-align: center;
-  font-size: 0.7em;
+
+  box-sizing: border-box;
+  width: 250px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1em 1em;
+
+  list-style-type: none;
+  text-transform: lowercase;
+
+  text-align: left;
+  font-size: 0.8em;
   color: rgba(31,54,61,1); }
-
-
-header, footer {background-color: rgba(245, 245, 245, 1);}
-section {background-color: rgba(211, 213, 219, 0.1)}
 
 a:link {color: rgba(51,106,125,1);}
 a:visited {color: rgba(108,137,112,1);}
