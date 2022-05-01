@@ -1,1 +1,11 @@
-style
+body {font-family: Georgia, Garamond, "Times New Roman", serif;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+       "header"
+       "main"
+       "footer";
+      grid-gap: 16px;}
+header, footer {}
+section {}
+h1, h2, h3 {font-family: "Trebuchet MS", Verdana, Arial, sans-serif;}
