@@ -6,6 +6,39 @@ body {font-family: Georgia, Garamond, "Times New Roman", serif;
        "main"
        "footer";
       grid-gap: 16px;}
-header, footer {}
+
+header, footer {background-color: rgba(245, 242, 240, 1)}
+main{display: grid;
+     grid-template-columns: 1fr, 1fr;
+     grid-template-areas:
+     "image1" "image2"
+     "image3" "image4";
+     grid-gap: 16px;
+     margin: auto;}
+
 section {}
+
 h1, h2, h3 {font-family: "Trebuchet MS", Verdana, Arial, sans-serif;}
+h1{text-align: center;
+   text-transform: uppercase;
+   font-size: 3em;}
+h2{text-align:center;
+   font-size: 1em;}
+
+section img{border: 3px solid rgba(108,137,112,0.3);}
+section p{text-align: center;}
+
+a:link {color: rgba(51,106,125,1);}
+a:visited {color: rgba(108,137,112,1);}
+a:hover{color: rgba(104,161,144,1);}
+a:active{color: rgba(102, 102, 112,.7);}
+
+#squid-game{display: grid;
+     grid-template-columns: 1fr;
+     grid-template-areas:
+     "image1"
+     "image2"
+     "image3"
+     "image4";
+     grid-gap: 16px;
+     margin: auto;}
