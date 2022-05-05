@@ -14,7 +14,7 @@ main{display: grid;
      "image1" "image2"
      "image3" "image4";
      grid-gap: 16px;
-     margin: auto;}
+     margin: 0 auto;}
 
 section {}
 
@@ -25,7 +25,8 @@ h1{text-align: center;
 h2{text-align:center;
    font-size: 1em;}
 
-section img{border: 3px solid rgba(108,137,112,0.3);}
+section img{border: 3px solid rgba(108,137,112,0.3);
+            text-align: center;}
 section p{text-align: center;}
 
 a:link {color: rgba(51,106,125,1);}
