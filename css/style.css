@@ -18,22 +18,21 @@ main{display: grid;
 
 section {}
 
-h1, h2, h3 {font-family: "Trebuchet MS", Verdana, Arial, sans-serif;}
-h1{text-align: center;
-   text-transform: uppercase;
+h1, h2, h3 {font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+            text-align: center;}
+h1{text-transform: uppercase;
    font-size: 4em;
    color: rgba(255, 255, 255, 1);
 
    margin-top: 0.5em;
    margin-bottom: 0.5em;}
-h2{text-align: center;
-   font-size: 0.8em;
+h2{font-size: 0.8em;
    color: rgba(150, 150, 150, 1);
 
    margin-top: 0.25em;}
 
-section img{border: 3px solid rgba(108,137,112,0.3);
-            text-align: center;}
+section figure{border: 3px solid rgba(108,137,112,0.3);
+               text-align: center;}
 section p{text-align: center;
           max-width: 960px;}
 
