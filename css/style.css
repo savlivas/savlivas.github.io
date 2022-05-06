@@ -16,7 +16,7 @@ h1{text-transform: uppercase;
          color: rgba(255, 255, 255, 1);
 
          margin-top: 0.5em;
-         margin-bottom: 0.5em;}
+         margin-bottom: 0.3em;}
 h2{font-size: 0.8em;
          color: rgba(150, 150, 150, 1);
 
@@ -58,4 +58,3 @@ a:active{color: rgba(217, 204, 217, 1);}
 #image4{
   grid-area: image4;
 }
-#squid-game{margin:auto;}
