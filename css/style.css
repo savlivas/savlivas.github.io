@@ -40,6 +40,9 @@ section p{text-align: center;
           max-width: 960px;
           color: rgba(255,255,255,1);}
 
+footer p{color: rgba(255, 255, 255, 1);
+         font-size: 0.7em;}
+
 
 a:link {color: rgba(229,152,155,1);}
 a:visited {color: rgba(181, 131, 141,1);}
