@@ -9,45 +9,53 @@ body {font-family: Georgia, Garamond, "Times New Roman", serif;
 
       text-align: center;}
 
+h1, h2, h3 {font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+                  text-align: center;}
+h1{text-transform: uppercase;
+         font-size: 4em;
+         color: rgba(255, 255, 255, 1);
+
+         margin-top: 0.5em;
+         margin-bottom: 0.5em;}
+h2{font-size: 0.8em;
+         color: rgba(150, 150, 150, 1);
+
+         margin-top: 0.25em;}
+
+
 header, footer {background-color: rgba(5, 1, 13, 1)}
-main{display: grid;
-     grid-template-columns: 1fr, 1fr;
+main{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
      grid-template-areas:
-     "image1" "image2"
-     "image3" "image4";
+     "image1 image2"
+     "image3 image4";
      grid-gap: 16px;
-     margin: 0 auto;}
+    }
 
 section {}
 
-h1, h2, h3 {font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
-            text-align: center;}
-h1{text-transform: uppercase;
-   font-size: 4em;
-   color: rgba(255, 255, 255, 1);
-
-   margin-top: 0.5em;
-   margin-bottom: 0.5em;}
-h2{font-size: 0.8em;
-   color: rgba(150, 150, 150, 1);
-
-   margin-top: 0.25em;}
-
 section img{text-align: center;}
 section p{text-align: center;
-          max-width: 960px;}
+          max-width: 960px;
+          color: rgba(255,255,255,1);}
+
 
 a:link {color: rgba(229,152,155,1);}
 a:visited {color: rgba(181, 131, 141,1);}
 a:hover{color: rgba(255, 221, 210,1);}
 a:active{color: rgba(217, 204, 217, 1);}
 
-#squid-game{display: grid;
-     grid-template-columns: 1fr;
-     grid-template-areas:
-     "image1"
-     "image2"
-     "image3"
-     "image4";
-     grid-gap: 16px;
-     margin: auto;}
+#image1{
+  grid-area: image1;
+}
+#image2{
+  grid-area: image2;
+}
+#image3{
+  grid-area: image3;
+}
+#image4{
+  grid-area: image4;
+}
+#squid-game{margin:auto;}
